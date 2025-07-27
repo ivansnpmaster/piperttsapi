@@ -1,0 +1,4 @@
+flask
+flask-cors
+piper-tts
+gunicorn
