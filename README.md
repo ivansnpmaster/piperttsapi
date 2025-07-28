@@ -58,17 +58,6 @@ Retorna uma lista de vozes disponíveis (baseado nas pastas em `voices/`).
 
 ---
 
-## 🧪 Exemplo com `curl`
-
-```bash
-curl -X POST http://localhost:5000/tts \
-  -H "Content-Type: application/json" \
-  -d '{ "text": "Olá, mundo!", "voice": "pt_BR-cadu-medium" }' \
-  --output saida.wav
-```
-
----
-
 ## 🛠️ Deploy no Railway
 
 1. Crie um novo projeto no [Railway](https://railway.app).
@@ -88,8 +77,10 @@ Este projeto é distribuído sob a [licença MIT](LICENSE).
 
 ---
 
-## 📢 Créditos
+## Créditos e licenças de terceiros
 
-- [Piper TTS](https://github.com/rhasspy/piper) – mecanismo de síntese
-- [Flask](https://flask.palletsprojects.com/)
-- [flask-cors](https://flask-cors.readthedocs.io/)
+Este projeto utiliza as seguintes bibliotecas:
+
+-   **Flask:**: Licenciado sob a [licença BSD 3-Clause](https://github.com/pallets/flask/blob/main/LICENSE.txt).
+-   **Flask-CORS:**: Licenciado sob a [licença MIT](https://github.com/corydolphin/flask-cors/blob/master/LICENSE).
+-   **Piper TTS:**: Licenciado sob a [licença GNU General Public License v3.0](https://github.com/OHF-Voice/piper1-gpl/blob/main/COPYING).
