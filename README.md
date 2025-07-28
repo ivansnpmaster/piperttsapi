@@ -81,6 +81,6 @@ Este projeto é distribuído sob a licença [GNU General Public License v3.0](LI
 
 Este projeto utiliza as seguintes bibliotecas:
 
--   **Flask:**: Licenciado sob a licença [BSD 3-Clause](https://github.com/pallets/flask/blob/main/LICENSE.txt).
--   **Flask-CORS:**: Licenciado sob a licença [MIT](https://github.com/corydolphin/flask-cors/blob/master/LICENSE).
--   **Piper TTS:**: Licenciado sob a licença [GNU General Public License v3.0](https://github.com/OHF-Voice/piper1-gpl/blob/main/COPYING).
+-   **Flask**: Sob a licença [BSD 3-Clause](https://github.com/pallets/flask/blob/main/LICENSE.txt).
+-   **Flask-CORS**: Sob a licença [MIT](https://github.com/corydolphin/flask-cors/blob/master/LICENSE).
+-   **Piper TTS**: Sob a licença [GNU General Public License v3.0](https://github.com/OHF-Voice/piper1-gpl/blob/main/COPYING).
